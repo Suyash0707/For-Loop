@@ -13,6 +13,7 @@ public class program
         pattern2();
         pattern3();
         pattern4();
+        pattern5();
  
         static void pattern1()
         {
@@ -52,6 +53,16 @@ public class program
                 Console.WriteLine(i);
             }
             Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        }
+
+        static void pattern5()
+        {
+            Console.WriteLine("Display suyash 5 times");
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine("suyash");
+            }
+
         }
     }
 }
